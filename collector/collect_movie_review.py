@@ -78,16 +78,16 @@ for i, review_box in enumerate(review_list):
     print(f" - 작성자: {writer}")
     print(f" - 일자: {review_date}")
 
-# MongoDB 저장
-#  - JSON type 전달
-data = {
-    "title": title,
-    "review": review,
-    "score": score,
-    "writer": writer,
-    "regdate": review_date
-}
-add_review(data)
+    # MongoDB 저장
+    #  - JSON type 전달
+    data = {
+        "title": title,
+        "review": review,
+        "score": score,
+        "writer": writer,
+        "regdate": review_date
+    }
+    add_review(data)
 
 # Report
 print("#" * 30)
