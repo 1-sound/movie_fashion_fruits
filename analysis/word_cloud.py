@@ -5,6 +5,13 @@ from konlpy.tag import Okt
 import numpy as np
 from wordcloud import WordCloud
 from PIL import Image
+# JAVA 언어
+# 1. oracle.com에 접속하고 로그인
+# 2. java SE 17버전 다운로드 및 설치(본인 컴퓨터)
+# 3. 윈도우 시스템 환경 변수 설저
+#   - 구글 검색: "윈도우 11 JAVA 환경변수 설정"
+# 4. 파이참을 종료하고 다시 실행
+# 5. word_cloud.py 실행!
 
 # 1.Load reviews form MongoDB
 reviews = get_reviews()
