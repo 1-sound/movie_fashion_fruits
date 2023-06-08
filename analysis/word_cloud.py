@@ -11,7 +11,7 @@ from PIL import Image
 # 3. 윈도우 시스템 환경 변수 설저
 #   - 구글 검색: "윈도우 11 JAVA 환경변수 설정"
 # 4. 파이참을 종료하고 다시 실행
-# 5. word_cloud.py 실행!
+# 5. word_cloud.py 실행
 
 # 1.Load reviews form MongoDB
 reviews = get_reviews()
